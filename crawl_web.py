@@ -22,7 +22,7 @@ async def crawlWeb_to_markdown(url: str) -> str:
 
 
 def main():
-    mcp.run(transport="streamable-http")
+    mcp.run(transport="stdio")
 
 if __name__ == "__main__":
     main()
